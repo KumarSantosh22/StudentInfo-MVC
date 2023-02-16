@@ -51,14 +51,14 @@
                       $("#add_button").click(function() {
                         alert("button clicked.");
 
-
-
-
-                        let content = `<div class="col-sm-3 col-form-label">
+                        let content = `
+                        </br>
+                        <div class="col-sm-3 col-form-label">
                             <label asp-for="Name" class="control-label">Name</label>
                             <input asp-for="Name" class="form-control" />
                             <span asp-validation-for="Name" class="text-danger"></span>
                         </div>
+
                         <div class="col-sm-3 col-form-label">
                             <label asp-for="Class" class="control-label">Class</label>
                             <input asp-for="Class" class="form-control" />
